@@ -1,0 +1,13 @@
+.header {
+	background-color: white;
+	border-bottom-style: solid;
+	border-color: 100, 100, 100;
+	height: 80px;
+
+
+}
+
+.body {
+	background-image: url("background_stone.jpg");
+	height: 100%;
+}
