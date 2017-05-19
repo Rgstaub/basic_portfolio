@@ -1,13 +1,32 @@
 .header {
 	background-color: white;
 	border-bottom-style: solid;
-	border-color: 100, 100, 100;
+	border-color: rgb(200, 200, 200);
 	height: 80px;
-
-
+	width: 100%;
+	margin: 0px;
 }
 
-.body {
+.main {
 	background-image: url("background_stone.jpg");
-	height: 100%;
+	height: 600px;
+}
+
+.yourName {
+	background-color: hsl(173,35%,50%);
+	float: left;
+
+	margin-left: 10%;
+
+	padding-left: 30px;
+	padding-right: 30px
+}
+
+.navigate {
+	float: right;
+	color: red;
+}
+
+body {
+	margin: 0px;
 }
