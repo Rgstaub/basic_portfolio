@@ -1,15 +1,15 @@
 .header {
 	background-color: white;
 	border-bottom-style: solid;
+	border-width: 5px;
 	border-color: rgb(180, 180, 180);
 	height: 90px;
 	width: 100%;
 	margin: 0px;
 }
 
-.main {
+body {
 	background-image: url("background_stone.jpg");
-	height: 600px;
 }
 
 .yourName {
@@ -71,9 +71,8 @@ nav {
 
 .footer {
 	background-color: grey;
-	height: 90px;
 	border-top-style: solid;
-	border-width: 15px;
+	border-width: 10px;
 	border-color: hsl(178,40%,50%);
 	font-family: "Arial", Verdana, sans-serif;
 	color: white;
@@ -81,5 +80,10 @@ nav {
 	text-align: center;
 	font-size: 14px;
 	font-weight: normal;
+	position: fixed;
+	bottom: 0pt;
+	width: 100%;
+	padding-top: 35px;
+	padding-bottom: 35px;
 
 }
