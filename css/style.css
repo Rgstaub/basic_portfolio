@@ -15,9 +15,9 @@ body {
 
 .yourName {
 	background-color: #4aaaa5;
-	float: left;
+
 	height: 60px;
-	margin-left: 10%;
+	width: 250px;
 	padding-left: 40px;
 	padding-right: 40px;
 	color: white;
@@ -28,7 +28,7 @@ body {
 }
 
 .navigate {
-	float: right;
+
 	color: rgb(170,170,170);
 	font-family: "Arial", verdana, sans-serif;
 	font-style: normal;
@@ -140,4 +140,10 @@ h1 {
 
 #about-contact {
 	position: relative;
+}
+
+.centered {
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 100%;
 }
