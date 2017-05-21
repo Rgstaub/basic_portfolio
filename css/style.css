@@ -125,12 +125,19 @@ h1 {
 }
 
 #connectWithMe {
-	float: right;
-	margin-right: 10%;
+	width: 260px;
+
 	position: relative;
-	right: 100px;
+	float: left;
+	margin-left: 20px;
+
+
 }
 
 .icon {
 	margin: 10px;
+}
+
+#about-contact {
+	position: relative;
 }
