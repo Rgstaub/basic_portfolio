@@ -19,6 +19,10 @@ body {
 	margin-left: 10%;
 	padding-left: 40px;
 	padding-right: 40px;
+	color: white;
+	font-size: 2em;
+	padding-top: 25px;
+	font-weight: bold;
 	
 }
 
@@ -50,12 +54,6 @@ body {
 	margin: 0px;
 }
 
-.nameText {
-	color: white;
-	font-size: 2em;
-	padding-top: 25px;
-	font-weight: bold;
-}
 
 a {
 	text-decoration-line: none;
