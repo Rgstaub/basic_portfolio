@@ -9,13 +9,12 @@ body {
 }
 
 header {
-	position: relative;
 	background-color: #FFFFFF;
-	width: 100%;
 	margin-bottom: 35px;
 	border-bottom-style: solid;
 	border-color: #CCCCCC;
 	border-width: 3px;
+	min-width: 960px;
 }
 
 nav {
