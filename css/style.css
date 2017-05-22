@@ -20,7 +20,7 @@ header {
 nav {
 	float: right;
 	position: relative;
-	top: 33px;
+	top: 30px;
 }
 
 main {
@@ -33,6 +33,7 @@ section {
 	width: 650px;
 	margin-bottom: 115px;
 	line-height: 30px;
+	float:left;
 }
 
 aside {
@@ -124,34 +125,40 @@ a:hover {
 .navigate {
 	padding-right: 15px;
 	padding-left: 15px;
-	font-size: 1em;
+	font-size: 1.2em;
 	text-decoration: none;
 	color: #777777;
 }
 
+
+
 .icon:hover {
 	box-shadow: 5px 5px 20px grey;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
-#contact {
+#contactLink {
 	padding-right: 0px;
 }
 
-#portfolio {
+#portfolioLink {
 	border-right-style: solid;
 	border-color: #DDDDDD;
 	border-width: 2px;
 }
 
-#about {
+#aboutLink {
 	border-right-style: solid;
 	border-color: #DDDDDD;
 	border-width: 2px;
 }
 
-#aboutMe {
-	float:left;
-}
+#aboutMe {}
+
+#contactForm {}
+
+#portfolioGallery {}
 
 #myPic {
 	float: left;
