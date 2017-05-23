@@ -21,6 +21,7 @@ nav {
 	float: right;
 	position: relative;
 	top: 30px;
+	color: #777777;
 }
 
 main {
@@ -61,7 +62,7 @@ h1 {
 	padding-top: 10px;
 	margin-bottom: 20px;
 	border-bottom-style: solid;
-	border-color: #DDDDDD;
+	border-color: #dddddd;
 	border-width: 3px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-weight: bold;
@@ -76,9 +77,9 @@ h2 {
 	font-size: 1.3em;
 	padding-bottom: 15px;
 	border-bottom-style: solid;
-	border-color: #DDDDDD;
+	border-color: #dddddd;
 	border-width: 2px;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 
 a:link {
@@ -108,17 +109,17 @@ a:hover {
 	padding-bottom: 25px;
 	padding-left: 30px;
 	padding-right: 30px;
-	color: #FFFFFF;
+	color: #ffffff;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	font-size: 1.8em;
 	font-weight: bold;
 }
 
 .contentBox {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	padding: 25px;
 	border-style: solid;
-	border-color: #CCCCCC;
+	border-color: #cccccc;
 	border-width: 1px;
 }
 
@@ -130,12 +131,45 @@ a:hover {
 	color: #777777;
 }
 
+.portfolioItem {
+	width: 281px;
+	height: 192px;
+	background-color: #aaaaaa;
+	float: left;
+}
 
+.portfolioBanner {
+	background-color: #4aaaa5;
+	padding-top: 16px;
+	height: 60px;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+	top: 120px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.3em;
+}
+
+.portfolioItem:hover {
+	box-shadow: 10px 10px 20px grey;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+
+.portfolioFirstRow {
+	margin-right: 35px;
+	margin-bottom: 35px;
+}
+
+.portfolioSecondRow {
+	margin-bottom: 35px;
+}
 
 .icon:hover {
 	box-shadow: 5px 5px 20px grey;
 	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
+
 }
 
 #contactLink {
@@ -144,13 +178,13 @@ a:hover {
 
 #portfolioLink {
 	border-right-style: solid;
-	border-color: #DDDDDD;
+	border-color: #dddddd;
 	border-width: 2px;
 }
 
 #aboutLink {
 	border-right-style: solid;
-	border-color: #DDDDDD;
+	border-color: #dddddd;
 	border-width: 2px;
 }
 
@@ -181,3 +215,23 @@ a:hover {
 }
 
 #conectWithMe {}
+
+#puzzleGame {
+	background-image: url(../images/puzzleGame.png);
+}
+
+#rpgGame {
+	background-image: url(../images/rpg.jpg);
+}
+
+#fantasyEsports {
+	background-image: url(../images/esports.jpg);
+}
+
+#thlCompanionApp {
+	background-image: url(../images/code.jpg);
+}
+
+#colorToy {
+	background-image: url(../images/color.png);
+}
