@@ -129,6 +129,10 @@ textarea {
 	line-height: 25px;
 }
 
+a {
+	text-decoration: none;
+}
+
 a:link {
 	color: #777777;
 }
@@ -162,20 +166,20 @@ a:hover {
 	font-weight: bold;
 }
 
+
+.navigate {
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 1.2em;
+	color: #777777;
+}
+
 .contentBox {
 	background-color: #ffffff;
 	padding: 25px;
 	border-style: solid;
 	border-color: #cccccc;
 	border-width: 1px;
-}
-
-.navigate {
-	padding-right: 15px;
-	padding-left: 15px;
-	font-size: 1.2em;
-	text-decoration: none;
-	color: #777777;
 }
 
 .portfolioItem {
@@ -227,8 +231,10 @@ a:hover {
     transition-duration: 0.3s;
 }
 
-#contactLink {
-	padding-right: 0px;
+#aboutLink {
+	border-right-style: solid;
+	border-color: #dddddd;
+	border-width: 2px;
 }
 
 #portfolioLink {
@@ -237,11 +243,10 @@ a:hover {
 	border-width: 2px;
 }
 
-#aboutLink {
-	border-right-style: solid;
-	border-color: #dddddd;
-	border-width: 2px;
+#contactLink {
+	padding-right: 0px;
 }
+
 
 #myPic {
 	float: left;
