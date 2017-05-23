@@ -9,10 +9,10 @@ body {
 }
 
 header {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	margin-bottom: 35px;
 	border-bottom-style: solid;
-	border-color: #CCCCCC;
+	border-color: #cccccc;
 	border-width: 3px;
 	min-width: 960px;
 }
@@ -54,7 +54,7 @@ footer {
 	border-color: #4aaaa5;
 	border-width: 7px;
 	font-size: .7em;
-	color: #CCCCCC;
+	color: #cccccc;
 }
 
 h1 {
@@ -80,6 +80,53 @@ h2 {
 	border-color: #dddddd;
 	border-width: 2px;
 	margin-bottom: 25px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	color: #777777;
+	border-color: #dddddd;
+	border-style: solid;
+	border-width: 1px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	font-size: .8em;
+}
+
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #dddddd;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #dddddd;
+   opacity:  1;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #dddddd;
+   opacity:  1;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #dddddd;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #dddddd;
+}
+
+textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	color: #777777;
+	border-color: #dddddd;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777777;
+	font-size: .8em;
+	line-height: 25px;
 }
 
 a:link {
@@ -165,11 +212,19 @@ a:hover {
 	margin-bottom: 35px;
 }
 
+.submitButton {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px 0px 10px 0px;
+	width: 120px;
+	font-size: 1em;
+	margin-bottom: 10px;
+}
+
 .icon:hover {
 	box-shadow: 5px 5px 20px grey;
 	-webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.3s;
-
 }
 
 #contactLink {
@@ -187,12 +242,6 @@ a:hover {
 	border-color: #dddddd;
 	border-width: 2px;
 }
-
-#aboutMe {}
-
-#contactForm {}
-
-#portfolioGallery {}
 
 #myPic {
 	float: left;
@@ -213,8 +262,6 @@ a:hover {
 #stackOverflow {
 	width: 64px;
 }
-
-#conectWithMe {}
 
 #puzzleGame {
 	background-image: url(../images/puzzleGame.png);
