@@ -263,6 +263,10 @@ a:hover {
 	border-width: 2px;
 }
 
+#portfolioGallery {
+	padding-bottom: 0px;
+}
+
 #contactLink {
 	padding-right: 0px;
 }
